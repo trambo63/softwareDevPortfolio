@@ -1,0 +1,84 @@
+body, html{
+    height: 100%
+}
+
+body{
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.intro-left{
+    background: url(../assets/lance-anderson-GpEuMWkk9U4-unsplash.jpg);
+    position: fixed;
+    left: 0;
+    width: 33.3333%;
+    height: 100%;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .intro-left{
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%
+    }
+}
+
+.headshot{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.full-height{
+    height: 100%;
+}
+
+.quote{
+    float: right;
+}
+
+section{
+    margin: 5rem;
+    font-size: 1.2rem;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.footer{
+    background-color: white;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.panel-right{
+    background-color: rgba(238, 238, 238, 0.904);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+    background: #333;
+}
+
+nav a {
+    padding: .5em 2em;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    background: #666;
+}
